@@ -37,4 +37,8 @@ def main():
     print(output)
 
 
-main()
+if __name__ == '__main__':
+    # true is running from command prompt
+    main()
+
+# false if this file is imported from another file
